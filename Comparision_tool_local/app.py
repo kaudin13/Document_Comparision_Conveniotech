@@ -222,7 +222,6 @@ st.write("Upload old and new Documents to detect meaningful regulatory changes."
 col1, col2 = st.columns(2)
 
 with col1:
-    st.write("**UPLOAD OLD DOCUMENT**")
     old_pdf = st.file_uploader(
         "Old version document",
         type=["pdf"],
@@ -231,12 +230,10 @@ with col1:
     )
 
 with col2:
-    st.write("**UPLOAD NEW DOCUMENT**")
     new_pdf = st.file_uploader(
         "New version document",
         type=["pdf"],
         key="new_doc",
-        label_visibility="collapsed"
     )
 
 if st.button("View Results"):
