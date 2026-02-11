@@ -264,7 +264,7 @@ def highlight_summary(summary: str) -> str:
 st.set_page_config(page_title="Tool for Document Comparison", layout="wide")
 
 st.title("Comparison Tool")
-st.write("Upload old and new Documents to detect meaningful regulatory changes.")
+st.write("Upload old and new Documents to detect meaningful changes.")
 
 col1, col2 = st.columns(2)
 
@@ -323,7 +323,7 @@ if st.button("View Results"):
         if not true_changes:
             st.info("No meaningful regulatory changes detected.")
         else:
-            st.success(f"Detected {len(true_changes)} true regulatory changes")
+            st.success(f"Detected {len(true_changes)} changes")
 
             for change in true_changes:
                 subtype = change.get("subtype", "")
