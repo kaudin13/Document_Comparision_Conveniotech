@@ -60,7 +60,7 @@ section[data-testid="stFileUploader"] {
 /* ===== PRIMARY BUTTON ===== */
 <style>
 .stButton > button {
-    background-color: #2563eb !important;   /* blue */
+    background-color: #3b82f6 !important;   /* blue */
     color: white !important;                /* text white */
     border-radius: 10px;
     font-weight: 600;
@@ -75,7 +75,7 @@ section[data-testid="stFileUploader"] {
 
 /* Hover state */
 .stButton > button:hover {
-    background-color: #1e4fd8 !important;   /* slightly darker blue */
+    background-color: #336ee6 !important;   /* slightly darker blue */
     color: white !important;
 }
 
