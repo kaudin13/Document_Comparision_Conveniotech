@@ -227,7 +227,7 @@ with col1:
         "Old version document",
         type=["pdf"],
         key="old_doc",
-        label_visibility="collapsed"
+        
     )
 
 with col2:
