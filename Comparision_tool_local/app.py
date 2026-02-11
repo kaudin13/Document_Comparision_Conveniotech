@@ -251,6 +251,7 @@ with col2:
     )
 
 if st.button("View Results"):
+    st.write("Clicked")
     if not old_pdf or not new_pdf:
         st.error("Please upload both old and new Document files.")
     else:
