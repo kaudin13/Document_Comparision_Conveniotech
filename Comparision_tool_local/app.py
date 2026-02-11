@@ -60,16 +60,28 @@ section[data-testid="stFileUploader"] {
 /* ===== PRIMARY BUTTON ===== */
 <style>
 .stButton > button {
-    background-color: #2563eb;
-    color: white !important;
+    background-color: #2563eb !important;   /* blue */
+    color: white !important;                /* text white */
     border-radius: 10px;
     font-weight: 600;
     border: none;
+    transition: background-color 0.2s ease;
 }
 
-/* force text inside button to be white */
-.stButton > button p,
-.stButton > button span {
+/* Text inside always white */
+.stButton > button * {
+    color: white !important;
+}
+
+/* Hover state */
+.stButton > button:hover {
+    background-color: #1e4fd8 !important;   /* slightly darker blue */
+    color: white !important;
+}
+
+/* Active / click */
+.stButton > button:active {
+    background-color: #1a45c4 !important;   /* darker when pressed */
     color: white !important;
 }
 
