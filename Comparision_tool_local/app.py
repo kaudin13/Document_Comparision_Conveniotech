@@ -65,10 +65,18 @@ section[data-testid="stFileUploader"] {
     padding: 10px 20px !important;
     font-weight: 600 !important;
     border: none !important;
+    
 }
 
 .stButton > button:hover {
     background-color: #1e40af !important;
+    color:white !important;
+}
+
+.stButton > button:hover,
+.stButton > button:active,
+.stButton > button:focus {
+    color: white !important;
 }
 
 
