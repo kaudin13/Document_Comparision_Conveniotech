@@ -193,7 +193,7 @@ label[data-testid="stFileUploaderLabel"] p {
 
 /* the vertical remove button */
 [data-testid="stFileUploaderFile"] button {
-    background-color: #3b82f6 !important;
+    background-color: #ef4444 !important;
     border-radius: 8px !important;
     width: 32px !important;
     height: 36px !important;
@@ -209,12 +209,12 @@ label[data-testid="stFileUploaderLabel"] p {
 
 /* hover */
 [data-testid="stFileUploaderFile"] button:hover {
-    background-color: #336ee6 !important;
+    background-color: #ef4444 !important;
 }
 
 /* click */
 [data-testid="stFileUploaderFile"] button:active {
-    background-color: #2f63d1 !important;
+    background-color: #b91c1c !important;
 }
 
 </style>
