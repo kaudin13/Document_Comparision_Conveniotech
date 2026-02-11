@@ -58,24 +58,18 @@ section[data-testid="stFileUploader"] {
 }
 
 /* ===== PRIMARY BUTTON ===== */
+<style>
 .stButton > button {
-    background-color: #2563eb !important;
+    background-color: #2563eb;
     color: white !important;
-    border-radius: 10px !important;
-    padding: 10px 20px !important;
-    font-weight: 600 !important;
-    border: none !important;
-    
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
 }
 
-.stButton > button:hover {
-    background-color: #1e40af !important;
-    color:white !important;
-}
-
-.stButton > button:hover,
-.stButton > button:active,
-.stButton > button:focus {
+/* force text inside button to be white */
+.stButton > button p,
+.stButton > button span {
     color: white !important;
 }
 
