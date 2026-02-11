@@ -184,27 +184,36 @@ label[data-testid="stFileUploaderLabel"] p {
     color: #1f2937 !important;
 }
 
-/* remove file (X) button */
-[data-testid="stFileUploader"] button[aria-label="Clear file"] {
-    background-color: #3b82f6 !important;
-    color: white !important;
-    border-radius: 6px !important;
-    border: none !important;
-    padding: 4px 8px !important;
+/* container holding uploaded file row */
+[data-testid="stFileUploaderFile"] {
+    background: #f8fafc !important;
+    border-radius: 10px !important;
+    padding: 8px !important;
 }
 
-/* icon inside */
-[data-testid="stFileUploader"] button[aria-label="Clear file"] svg {
+/* the vertical remove button */
+[data-testid="stFileUploaderFile"] button {
+    background-color: #3b82f6 !important;
+    border-radius: 8px !important;
+    width: 32px !important;
+    height: 36px !important;
+    border: none !important;
+}
+
+/* make the X icon white */
+[data-testid="stFileUploaderFile"] button svg {
     fill: white !important;
+    width: 16px !important;
+    height: 16px !important;
 }
 
 /* hover */
-[data-testid="stFileUploader"] button[aria-label="Clear file"]:hover {
+[data-testid="stFileUploaderFile"] button:hover {
     background-color: #336ee6 !important;
 }
 
 /* click */
-[data-testid="stFileUploader"] button[aria-label="Clear file"]:active {
+[data-testid="stFileUploaderFile"] button:active {
     background-color: #2f63d1 !important;
 }
 
